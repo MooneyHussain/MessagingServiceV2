@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingService.HostedService", "src\MessagingService.HostedService\MessagingService.HostedService.csproj", "{06C758FB-4F66-4AD8-AEF2-9B15BBCE2DAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessagingService.HostedService", "src\MessagingService.HostedService\MessagingService.HostedService.csproj", "{06C758FB-4F66-4AD8-AEF2-9B15BBCE2DAB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E2E16BC6-92B1-4556-843D-F16C8E536158}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Integration", "tests\Tests.Integration\Tests.Integration.csproj", "{E42D484D-6751-4781-9802-3F687C5CA0EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.Integration", "tests\Tests.Integration\Tests.Integration.csproj", "{E42D484D-6751-4781-9802-3F687C5CA0EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{6A7BEDB7-42A0-41EF-B8DC-57470C949A63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
