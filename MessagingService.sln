@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingService.HostedService", "src\MessagingService.HostedService\MessagingService.HostedService.csproj", "{06C758FB-4F66-4AD8-AEF2-9B15BBCE2DAB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E2E16BC6-92B1-4556-843D-F16C8E536158}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Integration", "tests\Tests.Integration\Tests.Integration.csproj", "{E42D484D-6751-4781-9802-3F687C5CA0EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{06C758FB-4F66-4AD8-AEF2-9B15BBCE2DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06C758FB-4F66-4AD8-AEF2-9B15BBCE2DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06C758FB-4F66-4AD8-AEF2-9B15BBCE2DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E42D484D-6751-4781-9802-3F687C5CA0EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E42D484D-6751-4781-9802-3F687C5CA0EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E42D484D-6751-4781-9802-3F687C5CA0EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E42D484D-6751-4781-9802-3F687C5CA0EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E42D484D-6751-4781-9802-3F687C5CA0EA} = {E2E16BC6-92B1-4556-843D-F16C8E536158}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BB951877-6798-4D92-A9AC-5946276D3680}
